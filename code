@@ -2,12 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random as rand
 
-n = len(xdat)
-
 # Define langrange pieces L_i
 def L(i,x,xdat):
     l = 1
-    for k in range(0,n):
+    for k in range(0,len(xdat)):
         if k != i:
             l *= (x-xdat[k])/(xdat[i]-xdat[k])
     return l
@@ -15,7 +13,7 @@ def L(i,x,xdat):
 # Define polynomial P(x)
 def lagrange_interp(x,xdat,ydat):
     P = 0
-    for i in range(0,n):
+    for i in range(0,len(xdat)):
         P += ydat[i]*L(i,x,xdat)
     return P
 
