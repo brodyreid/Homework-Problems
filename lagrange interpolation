@@ -1,3 +1,5 @@
+# Returns the Lagrange interp polynomial given xdat and ydat
+
 import numpy as np
 import matplotlib.pyplot as plt
 import random as rand
