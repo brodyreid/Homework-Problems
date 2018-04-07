@@ -1,3 +1,5 @@
+# A recursive function that returns the value of the first 5 Chebyshev polynomials
+
 import numpy as np
 import matplotlib.pyplot as plt
 def cheb_poly(n,x):
