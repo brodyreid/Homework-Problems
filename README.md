@@ -1,2 +1,2 @@
-# Homework Problems
-Functions I made for a some homework problems
+# Numerical Analysis
+Some simple analysis functions that can be used to estimate polynomials.
